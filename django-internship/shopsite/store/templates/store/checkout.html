@@ -1,0 +1,7 @@
+{% extends 'store/base.html' %}
+{% block title %}Checkout{% endblock %}
+{% block content %}
+<h1 class="mb-4">✅ Checkout</h1>
+<p class="alert alert-success">Thank you for your order!</p>
+<a href="{% url 'product_list' %}" class="btn btn-primary">Back to Home</a>
+{% endblock %}
